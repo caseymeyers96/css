@@ -1,0 +1,82 @@
+/* this is how you write comments */
+/* COLOR PALETTE
+https://coolors.co/87a878-7e6551-accbe1-7c98b3-6461a0
+#87A878 SAGE
+#7E6551 BROWN
+#ACCBE1 SKY BLUE
+#7C98B3 DARKER BLUE
+#6461A0 PURPLE BLUE
+#343434 GREY ALMOST BLACK
+# ALMOST WHITE */
+
+/* GLOBAL STYLES ---------------------*/
+body {
+color:#343434;
+margin: 0;
+padding:0;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+  color: #7C98B3
+}
+a:hover {
+  text-decoration: none;
+}
+h2{
+  margin:0;
+}
+
+.content-wrap{
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
+
+}
+
+
+/* PROFILE ---------------------*/
+header{
+  background: #87A878;
+}
+
+/* PROJECTS---------------------*/
+.projects {
+  background: #7E6551;
+}
+
+.projects a {
+
+}
+
+.projects .btn {
+  color:#87a878;
+ background: #2f3861;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px; /* the bigger the number the rounder the edges */
+  display: inline-block;
+}
+
+.projects .btn:hover{
+  background: rgba(47,48,97,80);
+}
+
+/* WORK EXPERIENCE ---------------------*/
+.work-experience{
+  background: #ACCBE1;
+}
+
+/* EDUCATION ---------------------*/
+
+
+/* CONTACT ---------------------*/
+
+
+footer{
+  background: ##87A878;
+
+}
