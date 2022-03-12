@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casey Meyers - Aspring Front End Devo</title>
+    <title>Casey Meyers - Aspiring Front End Devo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+  <!--  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Work+Sans:ital,wght@1,350&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
@@ -14,112 +16,120 @@
           <h1>Casey Meyers</h1>
           <h2>Aspiring Front End Developer</h2>
 
-          <p>Graduated Cum Laude from Cal State Channel Islands with a degree in chemistry, has an eye for detail, and passion for learning</p>
-          <p>While having an analytical and techincal mind I have also been pursuing my more artisic side with front end design</p>
+          <p>Graduated Cum Laude from Cal State Channel Islands with a degree in Chemistry, has an eye for detail, and passion for learning.</p>
+          <p>While having an analytical and technical mind, I have also been pursuing my more artistic side with front end and UX design.</p>
         </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
-        <div class="content-wrap">
+        <div class="content-wrap divider">
           <h2>Featured Projects </h2>
-          <p>View selected projects below. More information can be found at <a href="http://"></a>.</p>
+      <!--    <p>View selected projects below.</p> -->
 
           <!-- Project 1 -->
-          <section>
-            <h3> LinkedIn Learning Courses</h3>
-            <img src="images/flower.jpeg" alt="bouquet of red and orange flowers"> <!--project thumbnails should be 60px, background should be 1400-2000px-->
-            <p>Developed content and instruction for various CSS and front-end focused web development courses including CSS Essential Training, Getting Your Website Online, Design Systems & Architectures and more.</p>
-            <a  class= "btn" href="https://www.linkedin.com/learning/instructors/christina-truong?u=2125562" target="_blank">LinkedIn Learning</a>
-            <a class= "btn" href="https://www.lynda.com/Christina-Truong/7842227-1.html">Lynda.com</a>
+          <section class="project-item">
+            <img class="size" src="images/macbook2.jpg" alt="Blue background with halfclosed laptop in bottom left"> <!--project thumbnails should be 60px, background should be 1400-2000px-->
+            <h3> Personal Website</h3>
+            <p>Developed this website using the LinkedIn Learning Course "CSS Essentials".</p>
+            <a  class= "btn" href="https://www.linkedin.com/learning/css-essential-training-3/styling-documents-consistently?resume=false&u=37164436" target="_blank">LinkedIn Learning</a>
           </section>
 
           <!-- Project 2 -->
-          <section>
-            <h3>Women&&Tech</h3>
+  <!--       <section class="project-item">
             <img src="project-thumbnail.png" alt="description of image">
-            <p>Women&&Tech was launched in 2012 to feature interviews with different women working in the tech industry. I became familiar with them when I was invited to be one of the interviewees! A few years later, I joined the team and helped with the relaunch of the site as the front-end architect.</p>
+            <h3>XXXXX</h3>
+            <p>XXXXX</p>
             <a class= "btn" href="http://christinatruong.com/projects/women-and-tech-redesign.html" target="_blank">View the case study</a>
           </section>
 
-          <!-- Project 3 -->
-          <section>
-            <h3>The Wire Ipsum</h3>
+        <!-- Project 3 -->
+      <!--    <section class="project-item">
             <img src="project-thumbnail.png" alt="description of image">
-            <p>After coming back from teaching a JavaScript workshop, I felt inspired to create something just for fun. I realized that of all the content/lorem ipsum generators available, there was nothing for HBO’s The Wire fans. I searched for <a href="http://thewireipsum.com" target="_blank">thewireipsum.com</a> domain and it was available! Generate some content for your projects today.</p>
-            <a class= "btn" href="http://thewireipsum.com" target="_blank">View live site</a>
+            <h3>XXXXXX</h3>
+            <p>XXXX</p>
+            <a class= "btn" href="http:// target="_blank">View live site</a>
           </section>
         </div>
-      </section>
+      </section> -->
+    </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
-        <div class="content-wrap">
+        <div class="content-wrap item-details divider">
           <h2>Work Experience</h2>
           <p>See my complete work history on <a href="https://www.linkedin.com/in/casey-meyers-505958145/">LinkedIn</a>.</p>
 
           <!-- Job 1 -->
-          <section>
-            <h3>Laboratory Technician</h3>
-            <p>VDI Lab LLC</p>
-            <p> Simi Valley, CA</p>
-            <p>July 2021-Present</p>
-            <p></p>
-            <ul>
-              <li>
-                <ul>
-                  <li>Runs multiple assays including chemistries, vitamins, and various proteins.</li>
-                  <li>Operates and maintains multiple machines including Diasorin EtiMax And Liason XL, Perkin Elmer Multiprobe, and Alfa Wassermann Ace Axel. </li>
-                  <li>Runs multiple quality control checks including parallel testing, proficient testing, and general QA. </li>
-                  <li>Adgeres to multiple SOPs, GLPs, and lab safety protocols</li>
-                </ul>
-              </li>
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Laboratory Technician</h3>
+              <p>VDI Lab LLC</p>
+              <p> Simi Valley, CA</p>
+              <p>July 2021-Present</p>
+              </div>
+              <div class="job-summary">
+                <p>Key Contributions:</p>
+                  <ul>
+                      <li>Runs multiple assays including chemistries, vitamins, and various proteins.</li>
+                      <li>Operates and maintains multiple machines including Diasorin EtiMax And Liason XL, Perkin Elmer Multiprobe, and Alfa Wassermann Ace Axel. </li>
+                      <li>Runs multiple quality control checks including parallel and proficiency testing, and general QC. </li>
+                      <li>Adheres to multiple SOPs, GLPs, and lab safety protocols.</li>
+                  </ul>
+              </div>
           </section>
 
           <!-- Job 2 -->
-          <section>
-            <h3>Shift Lead</h3>
-            <p>Mendocino Farms</p>
-            <p>Sept 2018-April 2021</p>
-            <p>Westlake Village, CA</p>
-            <p>Key contributions:</p>
-            <ul>
-                  <li>Maintained customer loyalty by building relationships with those who regularly frequent the establishment</li>
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Shift Lead</h3>
+              <p>Mendocino Farms</p>
+              <p>Sept 2018-April 2021</p>
+              <p>Westlake Village, CA</p>
+            </div>
+            <div class="job-summary">
+              <p>Key contributions:</p>
+              <ul>
+                  <li>Maintained customer loyalty by building relationships with those who regularly frequent the establishment.</li>
                   <li>Expert in conflict resolution as a team lead with respect to both team members and guests.</li>
                   <li>Expedited food checking for correct orders, correct modifications, as well as sending out completed tickets within expected times.</li>
                   <li>Worked take-out counter ensuring each order was accurate and fulfilled within a timely manner.</li>
                   <li>Assisted in training and coaching of new hospitality team members.</li>
                   <li>Ran food and bussed tables striving for efficiency and visual integrity of the restaurant.</li>
-            </ul>
+              </ul>
+            </div>
           </section>
 
           <!-- Job 3 -->
-          <section>
-            <h3>Assistant Manager</h3>
-            <p>Yankee Candle</p>
-            <p>July 2014 - June 2018</p>
-            <p>Managed daily operations as well as store goals.</p>
-            <p>Key contributions:</p>
-            <ul>
-              <li>Acted as the face of the company, bringing the companies vision to life and shaping the guest experience.</li>
-              <li>Used professional judgement with internal policies and guidelines to encourage customer loyalty as well as standard practices within the store. </li>
-              <li>Store had the lowest shrink in the company of 0.6% in 2017. </li>
-              <li>Assisted in training and coaching of store management teams and sales associates.</li>
-              <li>Maintained visual integrity of store front through visual merchandising/presentation and operational standards.</li>
-            </ul>
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Assistant Manager</h3>
+              <p>Yankee Candle</p>
+              <p>July 2014 - June 2018</p>
+              <p>Thousand Oaks, CA </p>
+            </div>
+            <div class="job-summary">
+              <p>Key contributions:</p>
+              <ul>
+                <li>Acted as the face of the company, bringing the companies vision to life and shaping the guest experience.</li>
+                <li>Used professional judgement with internal policies and guidelines to encourage customer loyalty as well as standard practices within the store. </li>
+                <li>Store had the lowest shrink in the company of 0.6% in 2017. </li>
+                <li>Assisted in training and coaching of store management teams and sales associates.</li>
+                <li>Maintained visual integrity of store front through visual merchandising/presentation and operational standards.</li>
+                <li>Managed daily operations as well as store goals. </li>
+              </ul>
+            </div>
           </section>
-        </div>
 
-      </section>
-
+        </section>
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class="education">
-        <div class="content-wrap">
+        <div class="content-wrap item-details">
           <h2>Education</h2>
 
           <section>
             <h3>Cal State Channel Islands</h3>
-            <p>Degree in Chemistry, 2021</p>
+            <p>Bachelors Degree in Chemistry, 2021</p>
             <p>Graduated Cum Laude with multiple semesters on Dean's List</p>
           </section>
 
@@ -132,10 +142,10 @@
           <h2>Let's Keep in Touch!</h2>
 
           <!-- Social media and contact links. Add or remove any networks. -->
-          <ul>
-            <li><a href="caseymeyers96@gmail.com">caseymeyers96@gmail.com</a></li>
+          <ul class="contact-list">
+            <li><a href="https://www.gmail.com">caseymeyers96@gmail.com</a></li>
             <li><a href="https://www.linkedin.com/in/casey-meyers-505958145/" target="_blank">LinkedIn</a></li>
-            <li><a href="#" target="_blank">LinkedIn</a></li>
+          <!--  <li><a href="#" target="_blank">LinkedIn</a></li> -->
           </ul>
         </div>
       </footer>
